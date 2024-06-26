@@ -12,15 +12,6 @@
 #A esto se lo suele llamar promedio ponderado: no todos los valores tienen el mismo "peso".
 #Por ejemplo, dado el ejercicio de arriba me conviene sacarme una mejor nota en el examen donde la nota vale casi el 50% de la nota final.
 
-primera_nota = 20
-
-segunda_nota = 10
-
-tercera_nota = 10
-
-cuarta_nota = 10
-
-quinta_nota = 50
 
 nota_uno = input("Escribe tu nota del primer examen:")
 
@@ -32,7 +23,9 @@ nota_cuatro = input("Escribe tu nota del cuarto examen:")
 
 nota_cinco = input("Escribe tu nota del quinto examen:")
 
-print (nota_uno%20)
+
+
+
 
 
 promedio_uno = print (nota_uno%20)
