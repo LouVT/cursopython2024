@@ -53,7 +53,7 @@ print ("hola, estamos en un curso de python")
 
 print ("hola mundo")
 
-#print = imprimir 
+#Sprint = imprimir 
 
 print ("un string \t con tabulador") 
 
