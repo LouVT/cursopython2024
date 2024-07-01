@@ -13,35 +13,6 @@
 #Por ejemplo, dado el ejercicio de arriba me conviene sacarme una mejor nota en el examen donde la nota vale casi el 50% de la nota final.
 
 
-"""nota_uno = input("Escribe tu nota del primer examen:")
-
-nota_dos = input("Escribe tu nota del segundo examen:")
-
-nota_tres = input("Escribe tu nota del tercer examen:")
-
-nota_cuatro = input("Escribe tu nota del cuarto examen:")
-
-nota_cinco = input("Escribe tu nota del quinto examen:")
-
-
-
-
-
-
-promedio_uno = print (nota_uno%20)
-
-promedio_dos = print(nota_dos%10)
-
-promedio_tres = print(nota_tres%10)
-
-promedio_cuatro = print(nota_cuatro%10)
-
-promedio_cinco = print(nota_cinco%50)
-
-nota_final = print(promedio_uno+promedio_dos+promedio_tres+promedio_cuatro+promedio_cinco)
-
-print(nota_final)"""
-
 #_______________________________________________________________-
 
 #CLASE 25/6: TENIENDO DOS LISTA LA CUAL LLAMAREMOS lista_1 y lista_2 hay que hacer los siguientes ejercicios
