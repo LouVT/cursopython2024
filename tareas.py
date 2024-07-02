@@ -13,7 +13,10 @@
 #Por ejemplo, dado el ejercicio de arriba me conviene sacarme una mejor nota en el examen donde la nota vale casi el 50% de la nota final.
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> aba74545ac29624c73c539e746af5dde3ff85f9f
 #_______________________________________________________________-
 
 #CLASE 25/6: TENIENDO DOS LISTA LA CUAL LLAMAREMOS lista_1 y lista_2 hay que hacer los siguientes ejercicios

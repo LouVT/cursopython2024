@@ -119,3 +119,13 @@ print(5<20 or 20<1)
 #True Or False : True
 #True*5 = 2.5*2 or 123>= 23 : True
 #12>7 and True<False : False
+
+#______________NORMAS DE PRECEDENCIA_______________
+#1. TÉRMINOS ENTRE PARENTESIS
+#2. POTENCIACIÓN Y RAÍCES
+#3. MULTIPLICACIÓN Y DIVISIÓN
+#4. SUMA Y RESTA
+
+d = 15
+e = 12
+print(d**e / 3 **e / e*d >= and not(d%e **2) != 0)
