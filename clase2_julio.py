@@ -23,15 +23,15 @@
 # Nos va a devolver TRUE si son iguales, y FALSE si son distintos
 # Este operador se escribe con dos signos igual (==)
 
-a = 3 
-print(a == 3) 
+"a = 3 "
+"print(a == 3) "
 
 #__DESIGUALDAD O DISTINTO__
 # El operador DISTINTO sirve para preguntarle a nuestro programa si ambos operados son distintos.
 # Va a devolver TRUE si son distintos, y FALSE si son iguales
 # Este operador se escribe con un signo de exclamación y un signo de igual (!=)
 
-print(a != 3)
+"print(a != 3)"
 
 #__MENOR QUE__
 # El operador MENOR QUE sirve para preguntarle a nuestro programa si el primer operando es menor que el segundo operandon
@@ -64,9 +64,9 @@ print(10>=10)
 
 print("Hola" == "Hola")
 
-b = "Hola"
+#b = "Hola"
 
-print(b[1]== "o") # Acá le estoy pidiendo al programa si el indice 1 de la variable b es igual a "o"
+#"print(b[1]== "o")" # Acá le estoy pidiendo al programa si el indice 1 de la variable b es igual a "o"
 
 print(False == True)
 print(10>= 2*4)
@@ -128,4 +128,54 @@ print(5<20 or 20<1)
 
 d = 15
 e = 12
-print(d**e / 3 **e / e*d >= and not(d%e **2) != 0)
+"print(d**e / 3 **e / e*d >= and not (d%e **2) != 0)"
+
+número = 15
+
+a = 0
+a +=1
+print(a)
+
+b = 50
+b -=5
+b -=5
+b -=5
+print(b)
+
+c = 5
+c *=10
+c *=10
+c *=10
+print(c)
+
+# Operador        Ejemplo     Equivalente
+# =               a = 2       a = 2
+# +=              a += 2      a = a + 2
+# -=              a -= 2      a = a -2
+# *=              a *= 2      a = a * 2
+# /=              a /= 2      a = a / 2
+# %=              a %= 2      a = a % 2
+# **=             a**= 2      a = a ** 2
+
+# INICIO - INTERACCIÓN 1 - INTERACCIÓN 2 - INTERACCIÓN 3 - FIN
+
+# SETENCIA DE CONTROL
+# DOS TIPOS = CONTROL CONDICIONAL Y CONTROL ITERSTIVO
+
+# LAS SENTENCIAS DE CONTROL DE FLUJO CONDICIONALES SE VAN A DEFINIR POR EL USO DE TRES PALABRAS CLAVES RESERVADAS:
+# if, elif y else
+# IF : SI
+# ELIF : SINO, SI
+# ELSE SINO
+
+#SENTENCIA IF:
+# NOS PERMITE CONTROLAR EL FLUJO DE UN PROGRAMA Y DIVIDIR LA EJUCUCIÓN DEL MISMO EN DIFERENTES CAMINOS.
+# AL UTILIZAR ESTA PALABRA RESERVADA LE VAMOS A DECIR A PYTHON QUE QUEREMOS EJECUTAR UN BLOQUE DE CÓDIGO SOLO SI SE CUMPLE DETERMINADA CONDICIÓN, ES DECIR, SI EL RESULTADO ES TRUE.
+
+edad = int(input("Qué edad tenés?"))
+if edad >= 18: 
+    print("sos adulto")
+    
+if False:
+    print("imprimirme la condición verdadera")
+    
