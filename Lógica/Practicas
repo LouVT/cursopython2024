@@ -1,0 +1,56 @@
+EJ.1) Antonio el granjero. 
+
+Al empezar a ejecutar 
+   Cosechar todos los choclos en buen estado y dejarlos en el granero
+   .
+
+Definir Cosechar todos los choclos en buen estado y dejarlos en el granero
+   Cosechar todos los choclos posibles
+   Entrar al granero y depositar los choclos
+   
+Definir Cosechar todos los choclos posibles
+   Repetir hasta que "¿llegó al alambrado inferior?"
+      Cosechar choclos de la fila actual 
+      Pasar a la fila inferior
+   Cosechar choclos de la fila actual
+
+Definir Cosechar choclos de la fila actual
+   Repetir hasta que "¿llegó al alambrado izquierdo?"
+      Cosechar el choclo de la parcela actual si no tiene cardo
+      Mover izquierda
+    Cosechar el choclo de la parcela actual si no tiene cardo
+      
+Definir Cosechar el choclo de la parcela actual si no tiene cardo
+   Si ~¿hay un cardo acá? entonces
+        Cosechar todos los choclos de la planta 
+
+Definir Cosechar todos los choclos de la planta
+    Repetir Cantidad de choclos en la planta veces
+        Recoger choclo
+
+Definir Pasar a la fila inferior
+    Repetir hasta que "¿llegó al alambrado derecho?"
+        Mover derecha
+    Mover abajo
+
+Definir Entrar al granero y depositar los choclos
+    Entrar al granero
+    Volcar cosecha
+
+
+EJ.2) Tomás Janks
+
+
+Al empezar a ejecutar
+    Desactivar todas las bombas hasta llegar a Brian 
+
+Definir Desactivar todas las bombas hasta llegar a Brian
+    Repetir hasta que "¿está Brian?" 
+        Desactivar las minas que hayan en la ubicación
+        Dar un paso en el camino
+    Desactivar las minas que hayan en la ubicación
+
+Definir Desactivar las minas que hayan en la ubicación
+    Repetir Cantidad de minas en la ubicación veces 
+        Desactivar mina 
+
