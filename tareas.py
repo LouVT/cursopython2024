@@ -48,3 +48,30 @@ print(tupla.index(75)) #Posicion de algun item
 print(tupla[-4:]) #Los ultimos 4
 print(tupla[8]) #Numero en posicion 8
 print(tupla.count(11))
+
+#____________________CLASE 30 DE JULIO_______________________
+
+
+#SETS
+#Es una variable grupo:
+#Añadir a las sguiente personas: Jose, Maria, Gerardo, Fabian.
+#Eliminar a las personas: Fernando, Federico, Francisco.
+
+grupo = {"Fernando", "Federico", "Francisco", "Ricardo"}
+
+grupo.update(["Jose","Maria", "Gerardo", "Fabian"])
+grupo.discard("Fernando")
+grupo.discard("Federico")
+grupo.discard("Francisco")
+print(grupo)
+
+#DICCIONARIOS
+animalitos = {"elefante":""}
+#Añadir al diccionario las claves perro, gato y tucan con sus valores "Tobi", "Michi", y "Diego"
+
+#Modificar la clave elefante por delfin
+
+animalitos.update({"Perro": "Tobi", "Gato": "Michi", "Tucan": "Diego"})
+animalitos["elefante"] = "Delfin"
+
+print(animalitos)
