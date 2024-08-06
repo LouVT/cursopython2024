@@ -70,9 +70,7 @@ animalitos = {"elefante":""}
 #Añadir al diccionario las claves perro, gato y tucan con sus valores "Tobi", "Michi", y "Diego"
 
 #Modificar la clave elefante por delfin
-
 animalitos.update({"Perro": "Tobi", "Gato": "Michi", "Tucan": "Diego"})
-animalitos["elefante"] = "Delfin"
 
 print(animalitos)
 
