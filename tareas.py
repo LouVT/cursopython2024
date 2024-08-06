@@ -75,3 +75,4 @@ animalitos.update({"Perro": "Tobi", "Gato": "Michi", "Tucan": "Diego"})
 animalitos["elefante"] = "Delfin"
 
 print(animalitos)
+
