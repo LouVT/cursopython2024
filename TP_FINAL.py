@@ -118,7 +118,8 @@ print(numero_mayor)
 numero_menor= min(lista_numeros)
 print(numero_menor)
 
-#que seria el promedio??????
+suma_de_lista = sum(lista_numeros)
+print(round(suma_de_lista/8))
 
 """ Escribe un programa que reciba una lista de cadenas y muestre la lista con todas las cadenas en mayúsculas."""
     
@@ -157,7 +158,7 @@ elif menu == "DESPEDIRSE":
 elif menu == "SALIR":
     print("Te fuiste")
 else:
-    print("No reconozco la interacción")
+    print("Error, intente de nuevo.")
     
 """Escribe un programa que pida un número al usuario y determine si es positivo, negativo o cero."""
 
